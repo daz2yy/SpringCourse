@@ -50,3 +50,6 @@
    - 使用 @Primary 来配置
    - 不适用 @Primary 来配置，去掉自动加载类
 3. 使用阿里巴巴的 druid 数据库连接池，并添加一个自定义 Filter，在连接池连接之前和之后打印信息。
+4. 使用 JDBC 实现插入数据，批量插入数据，查询插入的数据。
+   - 使用 SimpleJdbcInsert 实现插入
+   - 使用 NamedParameterJdbcTemplate 实现插入
