@@ -53,3 +53,10 @@
 4. 使用 JDBC 实现插入数据，批量插入数据，查询插入的数据。
    - 使用 SimpleJdbcInsert 实现插入
    - 使用 NamedParameterJdbcTemplate 实现插入
+
+5. 数据库中，不同数据库的 error code 是如何统一的，实现一个自定义的数据库错误。
+   - 总结：
+     - DuplicateKeyException 的使用
+     - sql-error-codes.xml
+     - JUnit5 与 JUnit4 的区别，Test 不带参数了，通过 Assertions.assertThrows 判断异常
+
