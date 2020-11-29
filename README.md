@@ -46,3 +46,7 @@
 
    - 通过 actuator/beans 查看 SQL 相关的 Bean
 
+2. 配置多数据源
+   - 使用 @Primary 来配置
+   - 不适用 @Primary 来配置，去掉自动加载类
+3. 使用阿里巴巴的 druid 数据库连接池，并添加一个自定义 Filter，在连接池连接之前和之后打印信息。
