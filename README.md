@@ -60,3 +60,9 @@
      - sql-error-codes.xml
      - JUnit5 与 JUnit4 的区别，Test 不带参数了，通过 Assertions.assertThrows 判断异常
 
+6. 使用编程式事务实现数据插入
+   - 总结：
+     - 获取数量，count(*)，返回的是 long 类型
+     - TransactionTemplate 的使用
+7. 使用声明式事务实现数据插入
+   - 模仿抛出自定义异常
